@@ -1,0 +1,490 @@
+{ "liste":
+    {
+      "endormir": {
+        "id": {
+          "id1" : "the_lavande",
+          "id2" : "the_camomille",
+          "id3" : "the_jasmin",
+          "id4" : "the_menthe",
+          "id5" : "the_verveine"
+        },
+        "source": {
+          "image1" : "img/the_lavande_min.jpg",
+          "image2" : "img/the_camomille_min.jpg",
+          "image3" : "img/the_jasmin.jpg",
+          "image4" : "img/the_menthe_min.jpg",
+          "image5" : "img/the_verveine_min.jpg"
+        },
+        "texte": {
+          "texte1" : "Thé à la lavande",
+          "texte2" : "Thé à la camomille",
+          "texte3" : "Thé au jasmin",
+          "texte4" : "Thé à la menthe",
+          "texte5" : "Thé à la verveine"
+        }
+      },
+      "embellir": {
+        "id": {
+          "id1" : "the_lavande",
+          "id2" : "the_rose",
+          "id3" : "the_coco",
+          "id4" : "the_citron",
+          "id5" : "the_camomille"
+        },
+        "source": {
+          "image1" : "img/the_lavande_min.jpg",
+          "image2" : "img/the_rose_min.jpg",
+          "image3" : "img/the_coco.jpg",
+          "image4" : "img/the_citron_min.jpg",
+          "image5" : "img/the_camomille_min.jpg"
+        },
+        "texte": {
+          "texte1" : "Thé à la lavande",
+          "texte2" : "Thé à la rose",
+          "texte3" : "Thé à la noix de coco",
+          "texte4" : "Thé au citron",
+          "texte5" : "Thé à la camomille"
+        }
+      },
+      "guerir": {
+        "id": {
+          "id1" : "the_gingembre",
+          "id2" : "the_menthe",
+          "id3" : "the_framboise",
+          "id4" : "the_lavande",
+          "id5" : "the_citron"
+        },
+        "source": {
+          "image1" : "img/the_gingembre_min.jpg",
+          "image2" : "img/the_menthe_min.jpg",
+          "image3" : "img/the_framboise.jpg",
+          "image4" : "img/the_lavande_min.jpg",
+          "image5" : "img/the_citron_min.jpg"
+        },
+        "texte": {
+          "texte1" : "Thé au gingembre",
+          "texte2" : "Thé à la menthe",
+          "texte3" : "Thé à la framboise",
+          "texte4" : "Thé à la lavande",
+          "texte5" : "Thé au citron"
+        }
+      },
+      "tonifier": {
+        "id": {
+          "id1" : "the_amande",
+          "id2" : "the_cacao",
+          "id3" : "the_citron",
+          "id4" : "the_camomille",
+          "id5" : "the_jasmin"
+        },
+        "source": {
+          "image1" : "img/the_amande_min.jpg",
+          "image2" : "img/the_cacao_min.jpg",
+          "image3" : "img/the_citron.jpg",
+          "image4" : "img/the_camomille_min.jpg",
+          "image5" : "img/the_jasmin_min.jpg"
+        },
+        "texte": {
+          "texte1" : "Thé à l'amande",
+          "texte2" : "Thé au cacao",
+          "texte3" : "Thé au citron",
+          "texte4" : "Thé à la camomille",
+          "texte5" : "Thé au jasmin"
+        }
+      },
+      "reveiller": {
+        "id": {
+          "id1" : "the_citron",
+          "id2" : "the_framboise",
+          "id3" : "the_gingembre",
+          "id4" : "the_pamplemousse",
+          "id5" : "the_kiwi"
+        },
+        "source": {
+          "image1" : "img/the_citron_min.jpg",
+          "image2" : "img/the_framboise_min.jpg",
+          "image3" : "img/the_gingembre.jpg",
+          "image4" : "img/the_pamplemousse_min.jpg",
+          "image5" : "img/the_kiwi_min.jpg"
+        },
+        "texte": {
+          "texte1" : "Thé au citron",
+          "texte2" : "Thé à la framboise",
+          "texte3" : "Thé au gingembre",
+          "texte4" : "Thé au pamplemousse",
+          "texte5" : "Thé au kiwi"
+        }
+      },
+      "decontracter": {
+        "id": {
+          "id1" : "the_cacao",
+          "id2" : "the_camomille",
+          "id3" : "the_jasmin",
+          "id4" : "the_verveine",
+          "id5" : "the_houblon"
+        },
+        "source": {
+          "image1" : "img/the_cacao_min.jpg",
+          "image2" : "img/the_camomille_min.jpg",
+          "image3" : "img/the_jasmin.jpg",
+          "image4" : "img/the_verveine_min.jpg",
+          "image5" : "img/the_houblon_min.jpg"
+        },
+        "texte": {
+          "texte1" : "Thé au cacao",
+          "texte2" : "Thé à la camomille",
+          "texte3" : "Thé au jasmin",
+          "texte4" : "Thé à la verveine",
+          "texte5" : "Thé au houblon"
+        }
+      }
+    },
+  "recette":
+    {
+      "the_lavande": {
+        "titre" : "Thé à la lavande",
+        "image" : "img/the_lavande.jpg",
+        "vertue" : "Grippe, acné, sommeil",
+        "quantites" : {
+          "quantite1" : "330ml",
+          "quantite2" : "15g",
+          "quantite3" : "10g",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "lavande séchée",
+          "ingredient3" : "feuille de menthe",
+          "ingredient4" : "vanille"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-fleur",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-batonnet"
+        }
+      },
+      "the_camomille": {
+        "titre" : "Thé à la camomille",
+        "image" : "img/the_camomille.jpg",
+        "vertue" : "Allergie, hydratation, anti-stress",
+        "quantites" : {
+          "quantite1" : "330ml",
+          "quantite2" : "3cc",
+          "quantite3" : "2cc",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "camomille séchée",
+          "ingredient3" : "jus de citron",
+          "ingredient4" : "miel ou sirop d'érable"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-fleur",
+          "icone3" : "icon-citron",
+          "icone4" : "icon-miel"
+        }
+      },
+      "the_gingembre": {
+        "titre" : "Thé au gingembre",
+        "image" : "img/the_gingembre.jpg",
+        "vertue" : "Maux de gorge, boost",
+        "quantites" : {
+          "quantite1" : "330ml",
+          "quantite2" : "80g",
+          "quantite3" : "2cc",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "gingembre frais",
+          "ingredient3" : "citron ou pomme",
+          "ingredient4" : "miel ou sirop d'érable"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-gingembre",
+          "icone3" : "icon-citron",
+          "icone4" : "icon-miel"
+        }
+      },
+      "the_menthe": {
+        "titre" : "Thé à la menthe",
+        "image" : "img/the_menthe.jpg",
+        "vertue" : "Maux d'estomac, calmant",
+        "quantites" : {
+          "quantite1" : "330ml",
+          "quantite2" : "2cc",
+          "quantite3" : "1cs",
+          "quantite4" : "2cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "menthe fraiche",
+          "ingredient3" : "gingembre râpé",
+          "ingredient4" : "graines de fenouil"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-fleur",
+          "icone3" : "icon-gingembre",
+          "icone4" : "icon-fenouille"
+        }
+      },
+      "the_framboise": {
+        "titre" : "Thé à la framboise",
+        "image" : "img/the_framboise.jpg",
+        "vertue" : "Grosesse, boost",
+        "quantites" : {
+          "quantite1" : "330ml",
+          "quantite2" : "10g",
+          "quantite3" : "5g",
+          "quantite4" : "2g"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "framboises fraiches",
+          "ingredient3" : "feuilles de menthe",
+          "ingredient4" : "feuilles d'ortie"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-framboise",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-fleur"
+        }
+      },
+      "the_amande": {
+        "titre" : "Thé à l'amande",
+        "image" : "img/the_amande.jpg",
+        "vertue" : "Cholestérol",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "2g",
+          "quantite3" : "8g",
+          "quantite4" : "1g"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "poudre d'amande",
+          "ingredient3" : "thé noir",
+          "ingredient4" : "gousse de vanille"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-amande",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-batonnet"
+        }
+      },
+      "the_rose": {
+        "titre" : "Thé à la rose",
+        "image" : "img/the_rose.jpg",
+        "vertue" : "Peau douce",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "40g",
+          "quantite3" : "8g",
+          "quantite4" : "3cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "pétales de rose",
+          "ingredient3" : "thé vert",
+          "ingredient4" : "miel ou sirop d'érable"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-rose",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-miel"
+        }
+      },
+      "the_coco": {
+        "titre" : "Thé à la noix de coco",
+        "image" : "img/the_coco.jpg",
+        "vertue" : "Rides",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "5g",
+          "quantite3" : "8g",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "noix de coco râpée",
+          "ingredient3" : "thé noir",
+          "ingredient4" : "fleur d'oranger"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-coco",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-citron"
+        }
+      },
+      "the_cacao": {
+        "titre" : "Thé au cacao",
+        "image" : "img/the_cacao.jpg",
+        "vertue" : "Anti-stress, pression artérielle",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "2cs",
+          "quantite3" : "1cc",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "cacao râpé",
+          "ingredient3" : "cannelle",
+          "ingredient4" : "miel ou sirop d'érable"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-amande",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-miel"
+        }
+      },
+      "the_citron": {
+        "titre" : "Thé au citron",
+        "image" : "img/the_citron.jpg",
+        "vertue" : "Maux de tête, cancer, boost",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "30ml",
+          "quantite3" : "8g",
+          "quantite4" : "3cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "jus de citron",
+          "ingredient3" : "thé noir",
+          "ingredient4" : "cannelle en poudre"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-citron",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-batonnet"
+        }
+      },
+      "the_jasmin": {
+        "titre" : "Thé au jasmin",
+        "image" : "img/the_jasmin.jpg",
+        "vertue" : "Anti-stress, circulation sanguine",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "2cc",
+          "quantite3" : "2cc",
+          "quantite4" : "3g"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "fleurs de jasmin séchées",
+          "ingredient3" : "thé vert",
+          "ingredient4" : "gingembre frais"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-fleur",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-gingembre"
+        }
+      },
+      "the_pamplemousse": {
+        "titre" : "Thé au pamplemousse",
+        "image" : "img/the_pamplemousse.jpg",
+        "vertue" : "Boost",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "40ml",
+          "quantite3" : "5g",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "jus de pamplemousse",
+          "ingredient3" : "thé vert",
+          "ingredient4" : "miel ou sirop d'érable"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-citron",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-miel"
+        }
+      },
+      "the_verveine": {
+        "titre" : "Thé à la verveine",
+        "image" : "img/the_verveine.jpg",
+        "vertue" : "Anti-stress",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "3g",
+          "quantite3" : "2g",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "verveine",
+          "ingredient3" : "thé vert",
+          "ingredient4" : "cannelle en poudre"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-fleur",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-batonnet"
+        }
+      },
+      "the_kiwi": {
+        "titre" : "Thé au kiwi",
+        "image" : "img/the_kiwi.jpg",
+        "vertue" : "Boost",
+        "quantites" : {
+          "quantite1" : "500ml",
+          "quantite2" : "40ml",
+          "quantite3" : "2g",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "jus de kiwi",
+          "ingredient3" : "thé noir",
+          "ingredient4" : "jus de citron"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-coco",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-citron"
+        }
+      },
+      "the_houblon": {
+        "titre" : "Thé au houblon",
+        "image" : "img/the_houblon.jpg",
+        "vertue" : "Anti-stress",
+        "quantites" : {
+          "quantite1" : "320ml",
+          "quantite2" : "20g",
+          "quantite3" : "2cc",
+          "quantite4" : "1cc"
+        },
+        "ingredients" : {
+          "ingredient1" : "eau bouillante",
+          "ingredient2" : "houblons séchés",
+          "ingredient3" : "menthe poivrée",
+          "ingredient4" : "miel ou sirop d'érable"
+        },
+        "icones" : {
+          "icone1" : "icon-eau",
+          "icone2" : "icon-fleur",
+          "icone3" : "icon-fleur",
+          "icone4" : "icon-miel"
+        }
+      }
+  } 
+}

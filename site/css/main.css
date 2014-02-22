@@ -1,0 +1,314 @@
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face {
+    font-family: 'book';
+    src: url('../fonts/gotham-book.eot');
+    src: url('../fonts/gotham-book.eot') format('embedded-opentype'),
+         url('../fonts/gotham-book.woff') format('woff'),
+         url('../fonts/gotham-book.ttf') format('truetype'),
+         url('../fonts/gotham-book.svg#GothamBook') format('svg');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('../fonts/gotham-medium.eot');
+    src: url('../fonts/gotham-medium.eot') format('embedded-opentype'),
+         url('../fonts/gotham-medium.woff') format('woff'),
+         url('../fonts/gotham-medium.ttf') format('truetype'),
+         url('../fonts/gotham-medium.svg#GothamMedium') format('svg');
+}
+
+
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+       -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.clear { display: inline-block; }
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+.gris { background-color : #E6ECF0; }
+
+.visible { display: block; }
+.invisible { display: none; }
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "book", "medium", helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #4D4D4D;
+}
+
+h1, h2 {
+  font-family: "medium";
+  font-weight: normal;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 { padding: 70px 0; }
+
+h3 {
+  font-family: "book";
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+section {
+  padding-bottom: 70px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+p { padding-bottom: 10px; }
+
+a {
+  text-decoration: none;
+  color: #4D4D4D;
+}
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header {
+  width: 100%;
+  height: 100%;
+}
+
+header .promo {
+  position: relative;
+  width: 100%;
+  height: 75%;
+  min-height: 220px;
+  max-height: 600px;
+  padding: 0;
+  color: #ffffff;
+
+  background: url("../img/bg.jpg") no-repeat center bottom; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+header .promo a {
+  display: inline-block;
+
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+
+  margin-top: 40px;
+  padding: 6px 35px;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header .under-promo {
+  position: relative;
+  width: 100%;
+  height: 25%;
+  max-height: 200px;
+  padding: 0;
+}
+
+header .under-promo p { padding-bottom: 0; }
+
+/* ==========================================================================
+   Video
+   ========================================================================== */
+
+.video { 
+  position: relative;
+  height: auto;
+  height: 470px;
+}
+
+/* ==========================================================================
+   Futur
+   ========================================================================== */
+.futur, .business-plan { padding-bottom: 0; }
+
+.container-futur { 
+  position: relative;
+  width: 1024px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.container-futur h3 { text-align: left; }
+.explication { width: 50%; }
+
+/* ==========================================================================
+   Business-plan
+   ========================================================================== */
+
+.container-business-plan {
+  width: 1024px; 
+  margin: 0 auto;
+}
+
+.business-plan img { 
+  display: block;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Team
+   ========================================================================== */
+
+.team li {
+  position: relative;
+  display: inline-block;
+  margin: 0 2%;
+}
+
+.team li figure {
+  font-size: 50px;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  color: #ffffff;
+  background-color: #32425C;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+       -o-border-radius: 20px;
+          border-radius: 20px;
+}
+
+.team figcaption { padding-top: 10px; }
+
+.team a {
+  display: block;
+  text-decoration: none;
+  color: #4D4D4D;
+}
+
+/* ==========================================================================
+   Credit
+   ========================================================================== */
+
+.credit {
+  color: #ffffff;
+
+  background: url("../img/bg.jpg") no-repeat center bottom; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.credit a { color: #ffffff; }
+.credit li { padding-bottom: 10px; }
+.credit li:last-child { padding-bottom: 10px; }
+
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media screen and (max-width: 1020px) {
+
+  body { font-size: 14px; }
+  .futur, .business-plan { padding-bottom: 0; }
+  .container-futur, .container-business-plan { 
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .container-business-plan img { width: 100%; height: auto;}
+  .container-futur p + p { padding-bottom: 70px; }
+  .container-futur h3 { 
+    font-size: 20px;
+    text-align: center; 
+  }
+  .container-futur img { float: none !important; }
+  .explication { 
+    width: 100%; 
+    float: none !important; 
+    top: 0;
+    -webkit-transform: none;
+       -moz-transform: none;
+        -ms-transform: none;
+         -o-transform: none;
+            transform: none;
+  }
+  h1, h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) { 
+  body { font-size: 14px; }
+  .futur img, .business-plan img { 
+    width: 100%;
+    height: 100%;
+  }
+  .container-futur h3 { font-size: 18px; }
+  h2 { padding: 40px 0; }
+
+  h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .futur h2 { padding-bottom: 20px; }
+  section { padding-bottom: 40px; }
+  .video { height: 380px; }
+  .container-futur p + p { padding-bottom: 40px; }
+  .team li { display: block; }
+  .team li figure { display: block; margin: 0 auto;}
+  .team li figure {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+  }
+  .team figcaption { padding-bottom: 10px; }
+}

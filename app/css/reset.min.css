@@ -1,0 +1,108 @@
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:0 0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+@font-face {
+  font-family: 'teapot';
+  src:url('../fonts/teapot.eot?-3z0ki9');
+  src:url('../fonts/teapot.eot?#iefix-3z0ki9') format('embedded-opentype'),
+    url('../fonts/teapot.woff?-3z0ki9') format('woff'),
+    url('../fonts/teapot.ttf?-3z0ki9') format('truetype'),
+    url('../fonts/teapot.svg?-3z0ki9#teapot') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'teapot';
+  font-size: 50px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus { color: #45E5A0 !important;}
+
+.icon-teapot:before {
+  content: "\e600";
+}
+.icon-rose:before {
+  content: "\e601";
+}
+.icon-reveil:before {
+  content: "\e602";
+}
+.icon-plus:before {
+  content: "\e603";
+}
+.icon-pansement:before {
+  content: "\e604";
+}
+.icon-nuage:before {
+  content: "\e605";
+}
+.icon-moins:before {
+  content: "\e606";
+}
+.icon-miel:before {
+  content: "\e607";
+}
+.icon-menu:before {
+  content: "\e608";
+}
+.icon-loupe:before {
+  content: "\e609";
+}
+.icon-lampe:before {
+  content: "\e60a";
+}
+.icon-gingembre:before {
+  content: "\e60b";
+}
+.icon-framboise:before {
+  content: "\e60c";
+}
+.icon-fleur:before {
+  content: "\e60d";
+}
+.icon-fenouille:before {
+  content: "\e60e";
+}
+.icon-erlenmeyer:before {
+  content: "\e60f";
+}
+.icon-diamant:before {
+  content: "\e610";
+}
+.icon-coco:before {
+  content: "\e611";
+}
+.icon-citron:before {
+  content: "\e612";
+}
+.icon-batonnet:before {
+  content: "\e613";
+}
+.icon-basket:before {
+  content: "\e614";
+}
+.icon-back:before {
+  content: "\e615";
+}
+.icon-amande:before {
+  content: "\e616";
+}
+.icon-zen:before {
+  content: "\e617";
+}
+.icon-eau:before {
+  content: "\e618";
+}
+
+

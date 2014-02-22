@@ -1,0 +1,404 @@
+@media screen and (min-width: 0px) and (max-width: 320px) {
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+       -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.clear { display: inline-block; }
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+.red { color: #e85643; }
+.grey { color: #cccccc; }
+.blue { color: #3B96D3; }
+
+.visible { display: block; }
+.invisible { display: none; }
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+html, body {
+  width: 320px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.view {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+          overflow-scrolling: touch;
+  -webkit-transform: translate3d(0,0,0);
+          transform: translate3d(0,0,0);
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+.view.left { 
+  -webkit-transform: translate3d(-100%,0,0);
+          transform: translate3d(-100%,0,0); 
+}
+.view.center {
+  -webkit-transform: translate3d(0,0,0);
+          transform: translate3d(0,0,0);  
+}
+.view.right { 
+  -webkit-transform: translate3d(100%,0,0);
+          transform: translate3d(100%,0,0);
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+  font-family: -apple-system-font;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #32425C;
+}
+
+.container {
+  position: relative;
+  height: calc(100% - 108px);
+  min-height: 350px;
+}
+
+img { 
+  display: block; 
+  height: auto;
+}
+
+ul { list-style: none; overflow: hidden; }
+ul > li { display: inline-block; }
+
+.icon { color: #e85643; }
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  text-decoration: none;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  padding-top: 20px;
+  top: 0;
+  width: 100%;
+  height: 64px;
+  background-color: #32425C;
+  z-index: 10000;
+}
+
+header .icon { color: #ffffff; }
+
+header ul {
+  overflow: hidden;
+  width: 100%;
+}
+
+header ul li {;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.header-title {
+  position: absolute;
+  left: 50px; right: 50px;
+  font-size: 17px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Nav-bar
+   ========================================================================== */
+
+.nav-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 64px;
+  height: 44px;
+  background-color: #E85643;
+  z-index: 100;
+}
+
+.nav-bar ul  {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-bar li { 
+  padding: 0 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: .5;
+}
+
+.nav-bar li.active { opacity: 1; }
+
+/* ==========================================================================
+   Wrapper
+   ========================================================================== */
+
+.wrapper {
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+  height: 26px;
+  color: #565656;
+  background-color: #f1f3f7;
+}
+
+/* ==========================================================================
+   Recipes
+   ========================================================================== */
+
+.recipes > ul {
+  width: 100%;
+  padding: 0 25px;
+}
+
+.recipes > ul > li { 
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+}
+
+.recipes > ul > li:last-child { border-bottom: none; }
+
+.recipes li li:first-child {
+  width: 40px;
+  text-align: right;
+  margin-right: 25px;
+}
+.recipes li li { line-height: 40px; }
+.recipes .icon { font-size: 40px; vertical-align: middle; }
+
+/* ==========================================================================
+   Home
+   ========================================================================== */
+#home .menu { min-height: 350px; }
+.menu ul { height: 100%; }
+.menu li:nth-child(even) { border-right: none; }
+.menu li:nth-child(7), .menu li:nth-child(8) { border-bottom: none; }
+
+figure { position: relative; height: 100%; }
+
+.menu span { top: 15%; }
+
+.menu li {
+  position: relative;
+  width: 50%;
+  height: 25%;
+  min-height: 80px; 
+  float: left;
+  border-bottom: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+  text-align: center;
+}
+
+figcaption { 
+  font-size: 12px;
+  text-transform: uppercase;
+  bottom: 8px; 
+}
+
+.menu a {
+  display: block;
+  height: 100%;
+  color: #32425C;
+}
+
+/* ==========================================================================
+   Liste
+   ========================================================================== */
+
+.list li { float: left; }
+.list figcaption { 
+  bottom: 0;
+  line-height: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff; 
+}
+
+/* ==========================================================================
+   Proposition
+   ========================================================================== */
+
+.propose > ul {
+  width: 100%;
+  padding: 0 25px;
+}
+
+.propose > ul > li { 
+  display: block;
+  border-bottom: 1px solid #ededed;
+}
+
+.propose > ul > li:last-child { border-bottom: none; }
+.propose .icon { font-size: 40px; vertical-align: middle; line-height: 53px; }
+.propose .menu li { height: 93px; }
+
+.propose button[type=submit] {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  height: 53px;
+
+  font-family: -apple-system-font;
+  font-size: 12px;
+  text-transform: uppercase;
+  
+  border: none;
+  color: #ffffff;
+  background: #e85643;
+}
+
+.propose input[type=text] {
+  -webkit-appearance: none;
+  display: block;
+  background: transparent;
+  border: none;
+  width: 230px;
+  line-height: 21px;
+  padding: 14px 0;
+  font-family: -apple-system-font;
+  font-size: 14px;
+}
+::-webkit-input-placeholder { color: #3B96D3; }
+.propose .menu li.active { background: #ededed; }
+
+/* ==========================================================================
+   Envoyer
+   ========================================================================== */
+
+#envoyer .container p {
+  position: absolute;
+  top: 170px; left: 0; right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#envoyer .container .icon {
+  display: block;
+  position: absolute;
+  top: -60px;
+  width: 100%;
+  font-size: 300px;
+  text-align: center;
+  color: #32425C !important;
+}
+
+/* ==========================================================================
+   Return
+   ========================================================================== */
+.return {
+  display: none;
+  }
+
+/* ==========================================================================
+   Reviens
+   ========================================================================== */
+.reviens {
+  display: none;
+  }
+} 
+
+@media screen and (min-width: 321px) and (max-width: 750px) {
+  html, body { width: 640px; }
+
+  .return {
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #32425C;
+    z-index: 10000000000;
+  }
+
+  .return img {
+    position: absolute;
+    left: 50%; top: 50%;
+    margin-top: -51px;
+    margin-left: -48px;
+  }
+  #home, #recipe, #liste, #proposition, #envoyer, .reviens { display: none; }
+}
+
+@media screen and (min-width: 751px) and (max-width: 4000px) {
+  html, body { 
+    font-family: helvetica, arial, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    height: 100%; 
+    width: 100%; 
+  }
+
+  .return { display: none; }
+
+  .reviens {
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #32425C;
+    z-index: 10000000000;
+    color: #ffffff;
+  }
+
+  .reviens p {
+    display: block;
+    position: absolute;
+    top: 50%; left: 0;
+    margin-top: -16px;
+    width: 100%;
+    text-align: center;
+  }
+  #home, #recipe, #liste, #proposition, #envoyer, .return { display: none; }
+}

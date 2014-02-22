@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html manifest="site.manifest">
+  <head>
+    <meta charset="utf-8">
+    <title>Teapot</title>
+    <meta name="description" content="Teapot webapp">
+
+    <meta name="apple-mobile-web-app-title" content="Teapot">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="apple-touch-icon" href="img/icon57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icon114.png">
+    <link  rel="apple-touch-startup-image" href="img/splash-320x460.png" media="(device-width: 320px)">
+    <link rel="apple-touch-startup-image" href="img/splash-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" />
+    <link rel="apple-touch-startup-image" href="img/splash-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <section id="home" class="page view center">
+      <header>
+        <ul class="vertical-align">
+          <li class="left"><span class="icon icon-teapot"></span></li>
+          <li class="header-title">Teapot</li>
+          <li class="right blue"><a href="#"><span class="icon icon-loupe"></span></a></li>
+        </ul>
+      </header>
+
+      <nav class="nav-bar">
+        <ul class="vertical-align">
+          <li>Tu voulais</li>
+          <li class="active">Tu veux</li>
+          <li>Tu voudras</li>
+        </ul>
+      </nav>
+
+      <div class="container menu">
+        <ul>
+          <li class="endormir">
+            <figure>
+              <span class="vertical-align icon icon-nuage"></span>
+              <figcaption>T'endormir</figcaption>
+            </figure>
+          </li>
+          <li class="embellir">
+            <figure>
+              <span class="vertical-align icon icon-diamant"></span>
+              <figcaption>T'embellir</figcaption>
+            </figure>
+          </li>
+          <li class="guerir">
+            <figure>
+              <span class="vertical-align icon icon-pansement"></span>
+              <figcaption>Te guérir</figcaption>
+            </figure>
+          </li>
+          <li class="tonifier">
+            <figure>
+              <span class="vertical-align icon icon-basket"></span>
+              <figcaption>Te tonifier</figcaption>
+            </figure>
+          </li>
+          <li class="reveiller">
+            <figure>
+              <span class="vertical-align icon icon-reveil"></span>
+              <figcaption>Te réveiller</figcaption>
+            </figure>
+          </li>
+          <li class="decontracter">
+            <figure>
+              <span class="vertical-align icon icon-zen"></span>
+              <figcaption>Te décontracter</figcaption>
+            </figure>
+          </li>
+          <li class="proposer">
+            <figure>
+              <span class="vertical-align icon icon-erlenmeyer"></span>
+              <figcaption>Proposer</figcaption>
+            </figure>
+          </li>
+          <li class="aleatoire">
+            <figure>
+              <span class="vertical-align icon icon-lampe"></span>
+              <figcaption>Une idée</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="liste" class="page view right">
+      <header>
+        <ul class="vertical-align">
+          <li class="left"><span class="icon icon-menu"></span></li>
+          <li class="header-title">Recettes</li>
+          <li class="right blue"><a href="#"><span class="icon icon-loupe"></span></a></li>
+        </ul>
+      </header>
+
+      <nav class="nav-bar">
+        <ul class="vertical-align">
+          <li>Tu choisissais</li>
+          <li class="active">Tu choisis</li>
+          <li>Tu choisiras</li>
+        </ul>
+      </nav>
+
+      <div class="container list">
+        <ul>
+          <li>
+            <figure>
+              <img width="160" height="160">
+              <figcaption></figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img width="160" height="160">
+              <figcaption></figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img width="320" height="160">
+              <figcaption></figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img width="160" height="160">
+              <figcaption></figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img width="160" height="160">
+              <figcaption></figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="recipe" class="page view right">
+      <header>
+        <ul class="vertical-align">
+          <li class="left"><span class="icon icon-back"></span></li>
+          <li class="header-title"></li>
+          <li class="right blue"><a href="#"><span class="icon icon-loupe"></span></a></li>
+        </ul>
+      </header>
+      
+      <nav class="nav-bar">
+        <ul class="vertical-align">
+          <li>Tu infusais</li>
+          <li class="active">Tu infuses</li>
+          <li>Tu infuseras</li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <img width="320" height="160">
+        <div class="wrapper">
+          <p class="vertical-align"></p>
+        </div>
+        <div class="recipes">
+          <ul>
+            <li>
+              <ul>
+                <li class="quantite left"></li>
+                <li class="ingredient"></li>
+                <li class="right"><span class="icon"></span></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li class="quantite left">80g</li>
+                <li class="ingredient">gingembre frais</li>
+                <li class="right"><span class="icon"></span></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li class="quantite left"></li>
+                <li class="ingredient"></li>
+                <li class="right"><span class="icon"></span></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li class="quantite left"></li>
+                <li class="ingredient"></li>
+                <li class="right"><span class="icon"></span></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="proposition" class="page view right">
+      <header>
+        <ul class="vertical-align">
+          <li class="left"><a id="back" href="#"><span class="icon icon-menu"></span></a></li>
+          <li class="header-title">Teapot</li>
+          <li class="right blue"><a href="#"><span class="icon icon-loupe"></span></a></li>
+        </ul>
+      </header>
+      
+      <nav class="nav-bar">
+        <ul class="vertical-align">
+          <li>Tu voulais</li>
+          <li class="active">Tu veux</li>
+          <li>Tu voudras</li>
+        </ul>
+      </nav>
+
+      <div class="container propose">
+        <div class="wrapper">
+          <p class="vertical-align">Titre</p>
+        </div>
+        <ul>
+          <li>
+            <label>
+              <ul>
+                <li class="left add"><input type="text" placeholder="ajoute un titre"></li>
+                <li class="right"><span class="icon icon-plus"></span></li>
+              </ul>
+          </label>
+          </li>
+        </ul>
+        <div class="wrapper">
+          <p class="vertical-align">Vertu</p>
+        </div>
+        <ul>
+          <li>
+            <label>
+              <ul>
+                <li class="left add"><input type="text" placeholder="ajoute sa vertu"></li>
+                <li class="right"><span class="icon icon-plus"></span></li>
+              </ul>
+            </label>
+          </li>
+        </ul>
+        <div class="wrapper">
+          <p class="vertical-align">Eau</p>
+        </div>
+        <ul>
+          <li>
+            <label>
+              <ul>
+                <li class="left add"><input type="text" placeholder="ajoute la quantité d'eau"></li>
+                <li class="right"><span class="icon icon-plus"></span></li>
+              </ul>
+            </label>
+          </li>
+        </ul>
+        <div class="wrapper">
+          <p class="vertical-align">Ingrédients</p>
+        </div>
+        <ul>
+          <li>
+            <label>
+              <ul>
+                <li class="left add"><input type="text" placeholder="ajoute ton ingrédient"></li>
+                <li class="right"><span class="icon icon-plus"></span></li>
+              </ul>
+            </label>
+          </li>
+          <li>
+            <label>
+              <ul>
+                <li class="left add"><input type="text" placeholder="ajoute ton ingrédient"></li>
+                <li class="right"><span class="icon icon-plus"></span></li>
+              </ul>
+            </label>
+          </li>
+          <li>
+            <label>
+              <ul>
+                <li class="left add"><input type="text" placeholder="ajoute ton ingrédient"></li>
+                <li class="right"><span class="icon icon-plus"></span></li>
+              </ul>
+            </label>
+          </li>
+        </ul>
+        <div class="wrapper">
+          <p class="vertical-align">Catégorie</p>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <figure>
+                <span class="vertical-align icon icon-nuage"></span>
+                <figcaption>T'endormir</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <span class="vertical-align icon icon-diamant"></span>
+                <figcaption>T'embellir</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <span class="vertical-align icon icon-pansement"></span>
+                <figcaption>Te guérir</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <span class="vertical-align icon icon-basket"></span>
+                <figcaption>Te tonifer</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <span class="vertical-align icon icon-reveil"></span>
+                <figcaption>Te réveiller</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <span class="vertical-align icon icon-zen"></span>
+                <figcaption>Te décontracter</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <button type="submit">Fais bouillir</button>
+      </div>
+    </section>
+
+    <section id="envoyer" class="page view right">
+      <header>
+        <ul class="vertical-align">
+          <li class="left"><span class="icon icon-back"></span></li>
+          <li class="header-title">Merci</li>
+          <li class="right blue"><a href="#"><span class="icon icon-loupe"></span></a></li>
+        </ul>
+      </header>
+        
+      <nav class="nav-bar">
+        <ul class="vertical-align">
+          <li>Tu infusais</li>
+          <li class="active">Tu infuses</li>
+          <li>Tu infuseras</li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <p>On fait infuser ta recette jusqu'à sa publication</p>
+        <span class="icon icon-teapot"></span>
+      </div>
+        
+    </section>
+
+    <section class="page return">
+      <img src="img/return.png" width="103" height="96"/>
+    </section>
+
+    <section class="page reviens">
+      <p>Reviens voir Teapot avec un iPhone.</p>
+    </section>
+
+    <script src="js/vendor/bouncefix.min.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
+    <script src="js/app.js"></script>
+
+
+  </body>
+</html>
